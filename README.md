@@ -46,3 +46,8 @@ For the Website to be functional we need MongoDB and Express.js to be installed 
 5: Or if we don't want to install MongoDB Compass we can perform all the CRUD operation using the Visual Studio Code Terminal.
 
 ## 📸 Screenshots
+### Home Page
+<img src="https://github.com/umanique/Dancepiration/blob/main/Screenshots/1.png" width='1000px' height="500px">
+
+### Contact Us Page
+<img src="https://github.com/umanique/Dancepiration/blob/main/Screenshots/5.png" width='1000px' height="600px">
