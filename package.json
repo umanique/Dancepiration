@@ -1,0 +1,25 @@
+{
+  "name": "dance",
+  "version": "1.0.0",
+  "description": "This is dance website using pure Nde JS and Express JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "dance"
+  },
+  "repository": {
+    "type": "git",
+    "url": "umanique"
+  },
+  "keywords": [
+    "avc"
+  ],
+  "author": "Uman Ali",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10",
+    "nodemon": "^2.0.13",
+    "pug": "^3.0.2"
+  }
+}

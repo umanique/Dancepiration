@@ -1,0 +1,59 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap');
+
+/* CSS Resets: */
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    }
+ .container{
+     min-height: 80vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }   
+    
+h2{
+    text-align: center;
+    margin: 12px 0;
+    font-family: 'Port Lligat Slab', serif;
+    text-decoration-line: underline;
+    font-size: 27px;
+    font-weight: bold;
+}
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
+.myInput{
+    display: block;
+    width: 30%;
+    padding: 10px;
+    margin: 9px auto;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border: 2px solid rgb(85, 199, 199);
+    outline: none;
+}   
+
+
+.btn{
+    padding: 9px 27px;
+    font-size: 18px;
+    font-family: 'Port Lligat Slab', serif;
+    border: 3px solid black;
+    background-color: cadetblue;
+    color: lavender;
+    /* border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
+     */
+     border-radius: 20px;
+     width: 10%;
+     cursor: pointer;
+     outline: none;
+}

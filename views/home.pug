@@ -1,0 +1,74 @@
+extends base.pug
+
+block scripts
+    script(src="../static/index.js") 
+
+block style 
+    style
+      include ../static/style.css   
+
+block content 
+    section#introSection        
+        //- | section for picture
+        h3  Welcome to Dancepiration: The Dance Academy 
+        h5  Inflame The Dance Floor ...
+
+    section#whatWeOfferSection    
+        h3  What We Offer
+
+        div.card
+          h2 JAZZ FUNK
+          div.card-box
+              div.card-img
+                  img(src="../static/jazz_funk5.1.jpg")
+              div.card-content 
+              p Jazz Funk is a choreography or studio dance style that is an amalgamation of Jazz, Hip Hop and Funk. This style brings forth its technical aspect from Jazz that helps with correct body posture, flexibility and strength.   
+
+        div.card
+          h2 HIP HOP
+          div.card-box
+              div.card-img
+                  img(src="../static/hiphop.jpg")
+              div.card-content 
+              p Hip Hop Dance is one of the 9 elements of the Hip Hop culture that was created by the African Americans, Latino Americans and Caribbean Americans in the late 1970's in Bronx, New York City. Memphis jookins, Jerking, Bboying, New jack swing, Litefeet, Hip Hop are famous styles that come under the umbrella.    
+
+        div.card
+          h2 CONTEMPORARY
+          div.card-box
+              div.card-img
+                  img(src="../static/contemporary.jpg")
+              div.card-content 
+              p Contemporary is a dance style that combines elements of dance genres like modern, classical ballet, and jazz. Different choreographers/artists back in the day focused on different aspects of body movment thus creating different.   
+
+
+    section#whyUs
+        h3 Why Us ?
+
+        div.card1 
+            h2 Dance as your career? Why not !
+            div.card-box1
+                div.card-content1
+                p.para Dancepiration Dance Academy can be a great medium to express yourself and enjoy your life. But, there is much more to this craft. It can help you fullfil your dreams … Learning dance cannot be limited to a few weeks or months. It is an ongoing process as you learn something new every day or hone something that you already know. We believe a dancer cannot succeed until he/she works hard day after day.
+
+        div.card1 
+            h2 A Career in Dance
+            div.card-box1
+                div.card-content1
+                p.para Apart from being a fine skill, dancing can be a well-paying career too. It can earn you recognition, fame, and lots of money as well. With our assistance… Just because a person is a talented dancer doesn’t mean he/she doesn’t need to practice. In fact, the more you practice and dedicate yourself to the art, the better dancer you will become. Dedication, passion, and practice can turn you into an accomplished dancer and we are there to support you in every way possible.
+
+        div.card1 
+            h2 Challenges
+            div.card-box1
+                div.card-content1
+                p.para There is hardly any challenge that a dedicated dancer can’t face in his/her entire career except for their ego.Sometimes, when a dancer who specialises in a particular dance form talks to another dance expert, there is a tone of arrogance that kills the spirit of dance.  We strongly condemn this attitude. Dancepration believes that each dance and every dancer deserves equal respect, irrespective of the form or technique they choose to perform in.
+
+
+    section#sponsorsSection        
+        h3 Our Partners and Sponsors 
+        p Dancepration The Academy of Dance is indebted to the following sponsors and supporters, who are currently working with us. Their support helps us deliver world-class dance provision and community projects.
+
+        img(src="../static/spons1.png", alt="sponsors image",class="spImg")
+        img(src="../static/spons3.png", alt="sponsors image",class="spImg")
+        img(src="../static/spons4.png", alt="sponsors image",class="spImg")
+        img(src="../static/spons5.png", alt="sponsors image",class="spImg")
+        img(src="../static/spons6.png", alt="sponsors image",class="spImg")
