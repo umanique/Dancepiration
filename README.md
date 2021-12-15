@@ -21,7 +21,7 @@ A simple website built on Full Stack Development (Pug Template Engine, CSS3, Nod
 
 
 ## ⚙️ Detailed Functionality
-* From this web application any one can acsess Dance studio website and get info about studio.
+* From this web application any one can access Dance studio website and get info about studio.
 * Clients can fill the contact form and give their information like name email and contact details.
 * Filled information will be stored in the MongoDB database.
  
